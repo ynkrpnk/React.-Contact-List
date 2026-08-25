@@ -19,6 +19,7 @@ export default defineConfig([
     },
     rules: {
       "no-unused-vars": "warn",
+      "no-undef": "error",
       "react-hooks/set-state-in-effect": "off",
       "react-refresh/only-export-components": "off",
     },
